@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #62f9ae;
+  --heading-color:#2A3439;
+  --font-name: 'Signika Negative', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*#99EDC3 - mint green
+  #B2D3C2 - PISTACHIO green*/
+
+
+/*default*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: var(--font-name);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+section {
+  padding: 50px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
+  color: unset;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color: unset;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+.section_title {
+  color: var(--heading-color);
+  font-weight: 700;
 }
