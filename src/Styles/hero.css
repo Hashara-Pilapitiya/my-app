@@ -25,6 +25,7 @@
 
 .hero_content p span {
     color: var(--primary-color);
+    font-size: larger;
     font-weight: 700;
 }
 
