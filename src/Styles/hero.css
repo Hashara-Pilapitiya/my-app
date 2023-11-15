@@ -1,0 +1,159 @@
+.hero_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.hero_content h2 {
+    font-size: 3rem;
+    padding-right: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    color: var(--heading-color);
+}
+
+.hero_content .highlight {
+    color: var(--primary-color);
+}
+
+.hero_content p {
+    font-size: 1.1rem;
+    color: var(--heading-color);
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.hero_content p span {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.hero_btn {
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.watch_btn {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    color: var(--heading-color);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.watch_btn span {
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    color: var(--primary-color);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 8px -1px #8beebc;
+}
+
+.box-01 {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    border: 25px solid #53f7a5;
+}
+
+.box-02 {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border: 25px solid #94eabf;
+}
+
+.box-03 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 25px solid #bfeed7;
+}
+
+.hero_wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.box_img {
+    position: absolute;
+    top: 6%;
+    left: 55%;
+    z-index: 10;
+}
+
+.box_img img {
+    width: 600px;
+    height: 500px;
+}
+
+.heart_rate {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    z-index: 10;
+    box-shadow: -3px 3px 8px -1px #d3cef2;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+
+.heart_rate span {
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #94eabf;
+    color: #d7337a;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.heart_rate h5 {
+    font-size: 0.8rem;
+    color: var(--heading-color);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.gym_location {
+    position: absolute;
+    top: -1%;
+    right: 20%;
+    z-index: 10;
+    box-shadow: 3px 3px 8px -1px #d3cef2;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    padding: 1.2rem;
+}
+
+.gym_location span {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background: var(--primary-color);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+.gym_location h5 {
+    color: var(--heading-color);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}

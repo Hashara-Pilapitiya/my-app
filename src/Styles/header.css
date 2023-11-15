@@ -73,6 +73,10 @@
     cursor: pointer;
 }
 
+.register_btn:hover {
+    background: var(--heading-color);
+}
+
 .mobile_menu {
     color: var(--heading-color);
     font-size: 1.3rem;
