@@ -1,0 +1,97 @@
+.pricing_top {
+    text-align: center;
+}
+
+.pricing_top h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    word-spacing: 5px;
+}
+
+.pricing_top h2 span {
+    color: var(--primary-color);
+    letter-spacing: 2px;
+}
+
+.pricing_top p {
+    font-size: 1.1rem;
+    color: var(--heading-color);
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.pricing_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+.pricing_item {
+    box-shadow: rgb(153, 147, 147) 0px 5px 15px 0px;
+    border-radius: 5px;
+    width: 33%;
+    background: white;
+    margin-top: 30px;
+}
+
+.pricing_card-top {
+    padding: 30px;
+    border-bottom: 2px solid var(--primary-color);
+    text-align: center;
+}
+
+.pricing_card-top h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.9rem;
+}
+
+.pricing_card-top h3 {
+    font-size: 1.4rem;
+}
+
+.pricing_card-top h3 span {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.pricing_item .services {
+    padding: 30px;
+}
+
+.pricing_item .services ul li {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    color: rgb(74, 80, 78);
+    line-height: 28px;
+}
+
+.pricing_item .services ul li span {
+    font-size: 0.8rem;
+}
+
+.services {
+    text-align: center;
+}
+
+.services button {
+    margin-top: 50px;
+}
+
+.pricing_item-02 {
+    background: rgb(242, 238, 238);
+}
+
+.pricing_item-02 .pricing_card-top {
+    background: var(--primary-color);
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.pricing_item-02 .services ul li span {
+    color: var(--primary-color);
+}
+
+
+
