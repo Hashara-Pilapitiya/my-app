@@ -12,7 +12,7 @@ const Hero = () => {
 
             {/*hero content*/}
             <div className='hero_content'>
-                <h2>Exercise is crucial for weight management and maintaining a <span className='highlight'>Healthy Body</span> composition.</h2>
+                <h2>Exercise is crucial for maintaining a <span className='highlight'>Healthy Body</span> composition.</h2>
                 <p>Join <span>FitHub</span> and experience a fusion of fitness and fun, where every <br/> workout is a step towards a healthier and happier you.</p>
 
                 <div className='hero_btn'>
