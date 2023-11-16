@@ -2,7 +2,7 @@ import React from 'react';
 import '../../Styles/exercises.css';
 import lunge from '../../Assets/img/lunges.png';
 import yoga from '../../Assets/img/yoga.png';
-import blood from '../../Assets/img/4.avif'
+import blood from '../../Assets/img/blood.avif'
 
 const Exercises = () => {
   return (
