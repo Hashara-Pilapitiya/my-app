@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Exercises from './Components/UI/Exercises';
 import Hero from './Components/UI/Hero';
@@ -15,6 +16,7 @@ function App() {
   <Start/>
   <Pricing/>
   <Testimonials />
+  <Footer/>
   </>
   );
 }

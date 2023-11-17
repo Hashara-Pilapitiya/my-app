@@ -34,7 +34,6 @@ const Header = () => {
                         <img src={ logo } alt=''/>
                     </div>
                     <h2>FitHub</h2>
-
                 </div>
 
                 {/*menu-section*/}
