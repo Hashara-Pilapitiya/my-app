@@ -43,7 +43,7 @@
 
 .exercise_icon {
     width:40%;
-    height: 25%;
+    height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +63,7 @@
 
 .exercise_content h4 {
     font-size: 1.3rem;
-    color: white;
+    color: gray;
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 1rem;
@@ -71,6 +71,7 @@
 
 .exercise_content p{
     font-size: 1rem;
+    text-align: justify;
     color: var(--heading-color);
     letter-spacing: 1px;
     line-height: 30px;

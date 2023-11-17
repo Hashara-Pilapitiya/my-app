@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../Styles/exercises.css';
 import lunge from '../../Assets/img/lunges.png';
-import yoga from '../../Assets/img/yoga.png';
-import blood from '../../Assets/img/blood.avif';
+import yoga from '../../Assets/img/yoga.jpg';
+import blood from '../../Assets/img/blodd.avif';
 
 const Exercises = () => {
   return (
