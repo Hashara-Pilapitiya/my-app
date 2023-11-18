@@ -12,10 +12,10 @@ const Hero = () => {
 
             {/*hero content*/}
             <div className='hero_content'>
-                <h2>Exercise is crucial for maintaining a <span className='highlight'>Healthy Body</span> composition.</h2>
-                <p>Join <span>FitHub</span> and experience a fusion of fitness and fun, where every <br/> workout is a step towards a healthier and happier you.</p>
+                <h2 data-aos = "fade-up" data-aos-duration = "1500">Exercise is crucial for maintaining a <span className='highlight'>Healthy Body</span> composition.</h2>
+                <p data-aos = "fade-up" data-aos-duration = "1700">Join <span>FitHub</span> and experience a fusion of fitness and fun, where every <br/> workout is a step towards a healthier and happier you.</p>
 
-                <div className='hero_btn'>
+                <div className='hero_btn' data-aos = "fade-up" data-aos-duration = "2000">
                     <button className='register_btn'>Get Started</button>
                     <button className='watch_btn'><span><FaPlayCircle /></span>Watch Video</button>
                 </div>
@@ -34,13 +34,13 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <div className='heart_rate'>
+                    <div className='heart_rate' data-aos = "fade-right" data-aos-duration = "1700">
                         <h5>Heart Rate</h5>
                         <span><FaHeartPulse /></span>
                         <h5>2567 BPM</h5>
                     </div>
 
-                    <div className='gym_location'>
+                    <div className='gym_location' data-aos = "fade-left" data-aos-duration = "1700">
                         <span><FaLocationDot /></span>
                         <h5>Find a new <br/> gym near you.</h5>
                     </div>
