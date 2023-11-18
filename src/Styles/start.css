@@ -1,4 +1,5 @@
 .start_wrapper {
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     column-gap: 5rem;
@@ -7,7 +8,7 @@
 
 .start_img {
     position: absolute;
-    top: 185%;
+    top: 194%;
     left: 17%;
     z-index: 10;
 }

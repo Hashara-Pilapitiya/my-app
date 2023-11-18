@@ -3,7 +3,7 @@ import '../../Styles/start.css';
 import trainer from '../../Assets/img/trainer.png';
 
 const Start = () => {
-  return <section>
+  return <section id='classes'>
     <div className='container'>
         <div className='start_wrapper'>
             <div className='box-04'>

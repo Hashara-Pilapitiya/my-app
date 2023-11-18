@@ -6,7 +6,7 @@ import blood from '../../Assets/img/blodd.avif';
 
 const Exercises = () => {
   return (
-  <section>
+  <section id='schedule'>
     <div className='container exercise_container'>
         <div className='exercise_top'>
             <h2 className='section_title'>

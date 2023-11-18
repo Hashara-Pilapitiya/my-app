@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import '../../Styles/hero.css';
 
 const Hero = () => {
-  return <section>
+  return <section id='home'>
     <div className='container'>
         <div className='hero_wrapper'>
 

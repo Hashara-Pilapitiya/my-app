@@ -3,7 +3,7 @@ import '../../Styles/pricing.css';
 import { GoCheckCircleFill } from "react-icons/go";
 
 const Pricing = () => {
-  return <section>
+  return <section id='pricing-plan'>
     <div className='container'>
         <div className='pricing_top'>
             <h2 className='section_title'>

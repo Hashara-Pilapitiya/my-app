@@ -21,6 +21,10 @@ body {
   font-family: var(--font-name);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
   padding: 50px 0px;
 }
