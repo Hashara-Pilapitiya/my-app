@@ -41,13 +41,13 @@ const Footer = () => {
                 <h4>Company</h4>
                 <ul className='footer_links'>
                     <li>
-                        <a href='#'>Our Program</a>
+                        <a href='#home'>Our Program</a>
                     </li>
                     <li>
-                        <a href='#'>Our Plan</a>
+                        <a href='#classes'>Our Plan</a>
                     </li>
                     <li>
-                        <a href='#'>Become a Member</a>
+                        <a href='#pricing-plan'>Become a Member</a>
                     </li>
                 </ul>
             </div>

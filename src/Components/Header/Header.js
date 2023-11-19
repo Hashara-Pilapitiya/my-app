@@ -68,6 +68,7 @@ return (
                 {/*nav-right*/}
                 <div className='nav_right'>
                     <button className='register_btn'>Register</button>
+                    <button className='register_btn'>SignIn</button>
                     <span className='mobile_menu'><FaBars /></span>
                 </div>
             </div>

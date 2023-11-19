@@ -9,12 +9,14 @@ import Start from './Components/UI/Start';
 import Testimonials from './Components/UI/Testimonials';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Register from './Pages/Register';
+import SignIn from './Pages/SignIn';
 
 function App() {
 
   useEffect(() => {
     Aos.init();
-  }, [])
+  }, []);
 
   return (
   <>
@@ -25,6 +27,8 @@ function App() {
   <Pricing/>
   <Testimonials />
   <Footer/>
+  <Register/>
+  <SignIn/>
   </>
   );
 }

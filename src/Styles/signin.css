@@ -1,0 +1,97 @@
+.signin {
+    margin: 40px;
+    width: 100%;
+}
+
+.signin_content h2 {
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--heading-color);
+}
+
+.signin_form {
+    margin: 20px 80px;
+    display: flex;
+    align-items: center;
+    column-gap: 20rem;
+    box-shadow: 1px 1px 4px 2px rgb(207, 239, 207);
+    padding: 15px 0px 15px 60px;
+}
+
+.sign_form form {
+    width: 100%;
+}
+
+.sign_form form .form1_group {
+    margin-bottom: 40px;
+}
+
+.form1_group label {
+    margin-bottom: 12px;
+    font-size: 2rem;
+    color: var(--primary-color);
+    background: black;
+    display: flex;
+    width: 15%;
+    border-radius: 5px;
+}
+
+.form1_group input {
+    padding: 10px;
+    width: 200%;
+    border: 0px;
+    border-bottom: 2px solid;
+    letter-spacing: 1px;
+}
+
+.signin_img img {
+    width: 350px;
+    padding-right: 18px;
+}
+
+.signin_img p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.signin_img a {
+    color: var(--heading-color);
+}
+
+.signin_img a:hover {
+    color: rgb(11, 123, 124);
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.links {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 0.2rem;
+}
+
+.title {
+    color: var(--heading-color);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.media a {
+    margin: 0px 7px;
+}
+
+.media .facebook {
+    color: blue;
+    font-size: 1.3rem;
+}
+
+.media .twitter {
+   color: rgb(125, 223, 230);
+   font-size: 1.3rem;
+}
+
+.media .google {
+    color: red;
+    font-size: 1.2rem;
+}
