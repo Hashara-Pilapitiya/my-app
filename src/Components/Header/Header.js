@@ -2,6 +2,9 @@ import React, {useEffect, useRef} from 'react';
 import "../../Styles/header.css";
 import logo from '../../Assets/img/image.avif';
 import { FaBars } from "react-icons/fa6";
+import { useNavigate } from 'react-router-dom';
+
+
 
 const nav_links = [
     {
@@ -24,6 +27,8 @@ const nav_links = [
 
 const Header = () => {
 
+  const navigate = useNavigate();
+
   const headerRef = useRef(null)
 
   const headerFunc = ()=> {
@@ -40,7 +45,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", headerFunc);
   }, []);
 
-
+  
 return (
     <header className='header' ref={headerRef}>
         <div className='container'>
@@ -67,8 +72,8 @@ return (
 
                 {/*nav-right*/}
                 <div className='nav_right'>
-                    <button className='register_btn'>Register</button>
-                    <button className='register_btn'>SignIn</button>
+                    <button className='register_btn' onClick={() => navigate("/register")}>Register</button>
+                    <button className='register_btn'onClick={() => navigate("/signin")}>SignIn</button>
                     <span className='mobile_menu'><FaBars /></span>
                 </div>
             </div>

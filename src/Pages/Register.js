@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../Components/Header/Header';
 import { MdAccountCircle } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { MdLocalPhone } from "react-icons/md";
@@ -7,12 +6,14 @@ import { RiLockPasswordFill } from "react-icons/ri";
 import SignUpImg from '../Assets/img/signup.png';
 import '../Styles/register.css';
 import Footer from '../Components/Footer/Footer';
+import Header from '../Components/Header/Header';
+
 
 const Register = () => {
   return (
     <>
       <Header/>
-      <section className='signup'>
+      <section className='signup' id='register'>
         <div className='container'>
           <div className='signup_content'>
             <h2>Sign Up</h2>
